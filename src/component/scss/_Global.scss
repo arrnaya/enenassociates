@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 * {
     margin:0;
     padding: 0;
@@ -142,19 +144,24 @@ html {
 //     }
 // }
 
-
-
+// ----------------------------Font-Family-------------------------------------
+.f-fam{
+    font-family: 'Inter', sans-serif !important;
+}
+.ba-g-w{
+    background: #fff !important;
+}
 //------------container-kws------------------
 
 
 .container-kws {
-    width: 65% !important;
+    width: 95% !important;
     margin: auto !important;
 }
 
 @media screen and (max-width: 1800px) {
     .container-kws {
-        width: 70% !important;
+        width: 90% !important;
         margin: auto !important;
     }
 }
@@ -1188,7 +1195,9 @@ html {
 .f-w-400 {
     font-weight: 400 !important;
 }
-
+.f-w-500{
+    font-weight: 500 !important;
+}
 .f-w-600 {
     font-weight: 600 !important;
 }
@@ -1458,7 +1467,9 @@ html {
 }
 
 //------------width----in--%------
-
+.w-8{
+    width: 8% !important;
+}
 .w-25 {
     width: 25% !important;
 }
