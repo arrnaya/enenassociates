@@ -49,7 +49,7 @@ export default function Homes() {
                 </div>
               </Grid>
               <Grid item xs={12} sm={6} md={6} lg={6}>
-                <div className="f-fam m-l-1">
+                <div className="f-fam m-l-1 vision">
                   A CREATIVE IDEA IS THE LADDER TO SUCCESS. Capital & Experience
                   are not the toughest things to get in the industry. With
                   efforts, both can be acquired. What is the most important
@@ -70,7 +70,7 @@ export default function Homes() {
             {" "}
             <h2 className="t-a-c f-fam c-b f-w-600">OUR TECHNICAL TEAM</h2>
             <Grid container className="m-t-4">
-              <Grid item xs={12} sm={4} md={4} lg={4}>
+              <Grid item xs={6} sm={4} md={4} lg={4}>
                 <div>
                   <h5 className="f-fam c-b f-w-600">Y. V. NARAYANA REDDY</h5>
                   <p className="c-b f-w-500 f-fam">M. Tech (Civil)</p>
@@ -87,7 +87,7 @@ export default function Homes() {
                   </p>
                 </div>
               </Grid>
-              <Grid item xs={12} sm={4} md={4} lg={4}>
+              <Grid item xs={6} sm={4} md={4} lg={4}>
                 <div>
                   <h5 className="f-fam c-b f-w-600">P. V. NARENDRA BABU</h5>
                   <p className="c-b f-w-500 f-fam">M. Com</p>
@@ -106,8 +106,8 @@ export default function Homes() {
                   </p>
                 </div>
               </Grid>
-              <Grid item xs={12} sm={4} md={4} lg={4}>
-                <div>
+              <Grid item xs={6} sm={4} md={4} lg={4}>
+                <div className="techinical-section">
                   <h5 className="f-fam c-b f-w-600">B. JAGADESH</h5>
                   <p className="c-b f-w-500 f-fam">B. Arch.</p>
                   <p className="c-b f-w-500 f-fam">15 Years of Experience</p>
@@ -162,7 +162,7 @@ export default function Homes() {
       </section>
       <section className="section-dark-grey">
         <div className="container-kws">
-          <div className="p-t-2 p-b-2">
+          <div className="p-t-2 p-b-2 our-service">
             <Grid container>
               <Grid item xs={12} sm={6} md={4} lg={4} >
                 <h3 className="f-fam servi-border">OUR SERVICES</h3>
