@@ -13,7 +13,7 @@ import projectimg6 from "../Image/image8.jpeg"
 export default function Project() {
   return (
     <>
-      <section className="project-img ">
+      <section className="project-img a-i-c ">
         <div className="container-kws ">
           <div className="content">
             {" "}

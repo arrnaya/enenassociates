@@ -5,3 +5,13 @@
 .email-icon{
     border-radius: 50px;
     padding: 8px; }
+
+.contact-img{
+ background-image: #0000007a !important ;
+ background-size: cover;
+}
+@media screen and (max-width: 767px) {
+    .contactimg{
+        display: none;
+    }
+}

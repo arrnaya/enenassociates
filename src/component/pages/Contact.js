@@ -17,24 +17,24 @@ export default function Contact() {
               <div className="d-f">
                 <MdEmail className="f-s-3_5 c-w email-icon" />
                 <div className="d-g m-l-2">
-                  <span className="c-b f-fam">EMAIL US</span>
-                  <div className="c-g f-fam">enenassociatesindia@gmail.com</div>
+                  <span className="c-b f-fam f-s-1_5">EMAIL US</span>
+                  <div className="c-g f-fam f-s-1_3">enenassociatesindia@gmail.com</div>
                 </div>
               </div>
-              <div className="row p-t-2">
+              <div className="row p-t-3">
                 <div className="d-f">
                   <div>
                     <IoIosCall className="f-s-3_5 email-icon" />
                   </div>
 
                   <div className="d-g m-l-2">
-                    <div className="c-b f-fam">CALL US</div>
-                    <div className="c-g f-fam">
+                    <div className="c-b f-fam f-s-1_5">CALL US</div>
+                    <div className="c-g f-fam f-s-1_3">
                       Y. V. NARAYANA REDDY
                       <br />
                       +91 98480 10197
                     </div>
-                    <div className="c-g p-t-1 f-fam">
+                    <div className="c-g p-t-1 f-fam f-s-1_3">
                       P. V. NARENDRA BABU
                       <br />
                       +91 81977 47334
@@ -45,8 +45,8 @@ export default function Contact() {
               <div></div>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-              <div>
-                <img src={contactimg} alt="" />
+              <div className="contactimg">
+                <img src={contactimg} alt="" className="contact-img"/>
               </div>
             </div>
           </div>

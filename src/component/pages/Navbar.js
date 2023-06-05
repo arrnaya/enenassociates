@@ -73,7 +73,7 @@ function Navbar() {
         </div>{" "}
         <div className=" c-p ">
           <ul className="l-s-t-n d-f a-i-c ">
-            <li className="m-l-2 c-p f-fam  m-q-b-d-n">Home</li>
+           <NavLink to="/"> <li className="m-l-2 c-p f-fam  m-q-b-d-n">Home</li></NavLink>
             <NavLink to="/project"><li className="m-l-2 c-p f-fam  m-q-b-d-n">Projects</li></NavLink>
             <NavLink to="/contact"><li className="m-l-2 c-p  f-fam m-q-b-d-n">Contact</li></NavLink>
             <NavLink to="/store"><li className="m-l-2 c-p  f-fam m-q-b-d-n">Store</li></NavLink>
@@ -95,7 +95,7 @@ function Navbar() {
             {" "}
             <div className="image-dog1">
               <a href="/" target="_blank">
-                <img src={logo} alt="" className="" />
+                <img src={logo} alt="" className="w-50" />
               </a>
             </div>
           </Offcanvas.Title>
@@ -103,29 +103,11 @@ function Navbar() {
         </Offcanvas.Header>
         <Offcanvas.Body>
           <ul className="l-s-t-n">
-            <li className="m-r-1 m-t-1 c-p">dummy</li>
-            <li className="m-r-1 m-t-1 c-p">dummy</li>
-            <li className="m-r-1 m-t-1 c-p">dummy</li>
-            <li className="m-r-1 m-t-1 c-p">
-              <Dropdown>
-                <Dropdown.Toggle
-                  variant="success"
-                  id="dropdown-basic"
-                  className="b-c-t c-i b-n"
-                >
-                  Dropdown Button
-                </Dropdown.Toggle>
-                <Dropdown.Menu className="pa-1">
-                  <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                  <Dropdown.Item href="#/action-2">
-                    Another action
-                  </Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">
-                    Something else
-                  </Dropdown.Item>
-                </Dropdown.Menu>
-              </Dropdown>
-            </li>
+            <NavLink to="/"><li className="m-r-1 m-t-1 c-p f-fam f-s-2 home-select">Home</li></NavLink>
+           <NavLink to="/project"> <li className="m-r-1 m-t-1 c-p f-fam f-s-2 home-select">Projects</li></NavLink>
+            <NavLink to="/contact"><li className="m-r-1 m-t-1 c-p f-fam f-s-2 home-select">Contact</li></NavLink>
+           <NavLink to="/store"><li className="m-r-1 m-t-1 c-p f-fam f-s-2 home-select">Store</li></NavLink>
+            
           </ul>
         </Offcanvas.Body>
       </Offcanvas>
