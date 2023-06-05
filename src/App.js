@@ -8,6 +8,9 @@ import Form1 from "./component/pages/Form1";
 import Page404 from "./component/pages/Page404";
 import Homes from "./component/pages/Homes";
 import Footer from "./component/pages/Footer";
+import Project from "./component/pages/Project";
+import Contact from "./component/pages/Contact"
+import Store from "./component/pages/Store";
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
         <Navbar />
         <Routes>
         <Route path="/" element={<Homes/>} />
+        <Route path="/project" element={<Project/>}/>
+        <Route path="/contact" element={<Contact/>} />
+        <Route path="/store" element={<Store/>} />
         {/*   <Route path="/" element={<Home />} />
           <Route path="/form" element={<Form1 />} />
           <Route path="*" element={<Page404 />} /> */}

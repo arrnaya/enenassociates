@@ -13,6 +13,7 @@ import walletconnect from "../Svg/walletconnect.svg";
 import "animate.css";
 
 import logo from "../Image/enenasso-bg.png";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   const [show, setShow] = useState(false);
@@ -73,9 +74,9 @@ function Navbar() {
         <div className=" c-p ">
           <ul className="l-s-t-n d-f a-i-c ">
             <li className="m-l-2 c-p f-fam  m-q-b-d-n">Home</li>
-            <li className="m-l-2 c-p f-fam  m-q-b-d-n">Projects</li>
-            <li className="m-l-2 c-p  f-fam m-q-b-d-n">Contact</li>
-            <li className="m-l-2 c-p  f-fam m-q-b-d-n">Store</li>
+            <NavLink to="/project"><li className="m-l-2 c-p f-fam  m-q-b-d-n">Projects</li></NavLink>
+            <NavLink to="/contact"><li className="m-l-2 c-p  f-fam m-q-b-d-n">Contact</li></NavLink>
+            <NavLink to="/store"><li className="m-l-2 c-p  f-fam m-q-b-d-n">Store</li></NavLink>
             <li className="m-l-2 c-p   m-q-a-d-n ">
               {" "}
               <Button onClick={handleShow} className=" b-c-t c-i b-n pa-0">
