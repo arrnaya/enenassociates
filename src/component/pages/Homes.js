@@ -39,7 +39,7 @@ export default function Homes() {
             <h2 className="t-a-c f-fam c-w f-w-600">OUR VISION & CREATIVITY</h2>
             <Grid container className="m-t-4">
               <Grid item xs={12} sm={6} md={6} lg={6}>
-                <div className="f-fam m-r-1">
+                <div className="f-fam m-r-1 c-w">
                   ENEN Associates is on the way to becoming the most preferred
                   service provider throughout India for a complete range of
                   Interior Designing & Building Solutions and we are constantly
@@ -49,7 +49,7 @@ export default function Homes() {
                 </div>
               </Grid>
               <Grid item xs={12} sm={6} md={6} lg={6}>
-                <div className="f-fam m-l-1 vision">
+                <div className="f-fam m-l-1 vision c-w">
                   A CREATIVE IDEA IS THE LADDER TO SUCCESS. Capital & Experience
                   are not the toughest things to get in the industry. With
                   efforts, both can be acquired. What is the most important
@@ -68,7 +68,7 @@ export default function Homes() {
         <div className="container-kws">
           <div className="p-t-2 p-b-2">
             {" "}
-            <h2 className="t-a-c f-fam c-b f-w-600">OUR TECHNICAL TEAM</h2>
+            <h2 className="t-a-c f-fam  c-b f-w-600">OUR TECHNICAL TEAM</h2>
             <Grid container className="m-t-4">
               <Grid item xs={6} sm={4} md={4} lg={4}>
                 <div>
@@ -165,39 +165,39 @@ export default function Homes() {
           <div className="p-t-2 p-b-2 our-service">
             <Grid container>
               <Grid item xs={12} sm={6} md={4} lg={4} >
-                <h3 className="f-fam servi-border">OUR SERVICES</h3>
-                <h6 className="f-fam m-t-3 m-b-3">INTERIOR FIT-OUT TURNKEY</h6>
-                <p className="f-fam ">
+                <h3 className="f-fam c-w servi-border">OUR SERVICES</h3>
+                <h6 className="f-fam c-w m-t-3 m-b-3">INTERIOR FIT-OUT TURNKEY</h6>
+                <p className="f-fam c-w">
                   Our team has a vast expertise in managing and value adding to
                   every stage of the Project management cycle, which includes
                 </p>
-                <p className="f-fam ">1. Development consulting.</p>
-                <p className="f-fam">2. Design development.</p>
-                <p className="f-fam">3. Procurement management.</p>
-                <p className="f-fam">4 .Construction management.</p>
-                <p className="f-fam">
+                <p className="f-fam c-w">1. Development consulting.</p>
+                <p className="f-fam c-w">2. Design development.</p>
+                <p className="f-fam v">3. Procurement management.</p>
+                <p className="f-fam c-w">4 .Construction management.</p>
+                <p className="f-fam c-w">
                   5. Cost consultancy and project monitoring.
                 </p>
-                <p className="f-fam">
+                <p className="f-fam c-w">
                   We provide services across Interior fit-out refurbishment and
                   built-to-suit projects.
                 </p>
               </Grid>
               <Grid item xs={12} sm={6} md={4} lg={4}>
               <div className="p-t-2">
-                <h6 className="f-fam m-t-3 m-b-3">CIVIL & INTERIOR</h6>
+                <h6 className="f-fam m-t-3 c-w m-b-3">CIVIL & INTERIOR</h6>
 
-                <p className="f-fam ">1. Interior</p>
-                <p className="f-fam">2. Project Implementation & Management</p>
-                <p className="f-fam">3. Procurement & Value Engineering</p>
+                <p className="f-fam c-w">1. Interior</p>
+                <p className="f-fam c-w">2. Project Implementation & Management</p>
+                <p className="f-fam c-w">3. Procurement & Value Engineering</p>
                 </div>
               </Grid>
               <Grid item xs={12} sm={6} md={4} lg={4}><div className="p-t-2">
-              <h6 className="f-fam m-t-3 m-b-3">MEP SERVICES</h6>
+              <h6 className="f-fam m-t-3 c-w m-b-3">MEP SERVICES</h6>
 
-              <p className="f-fam ">1. HVAC</p>
-              <p className="f-fam">2. Electrical</p>
-              <p className="f-fam">3. BMS</p>
+              <p className="f-fam c-w">1. HVAC</p>
+              <p className="f-fam c-w">2. Electrical</p>
+              <p className="f-fam c-w">3. BMS</p>
               </div></Grid>
             </Grid>
           </div>

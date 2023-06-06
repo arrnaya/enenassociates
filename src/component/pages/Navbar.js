@@ -55,12 +55,12 @@ function Navbar() {
       <div className="  navbar12  d-f a-i-c j-c-s-b p-y-1">
         <div className="container-kws">
           <ul className="l-s-t-n d-f a-i-c ">
-            <li className="m-r-2 c-p f-fam f-s-0_8 ">
+            <li className="m-r-2 c-p c-w f-fam f-s-0_8 ">
               <BsFillTelephoneFill />
               +91 8197747334
             </li>
-            <li className="f-fam f-s-0_8">
-              <MdEmail className="f-s-1 m-r-0_5" />
+            <li className="f-fam c-w f-s-0_8">
+              <MdEmail className="c-w f-s-1 m-r-0_5" />
               enenassociatesindia@gmail.com
             </li>
           </ul>
@@ -73,10 +73,10 @@ function Navbar() {
         </div>{" "}
         <div className=" c-p ">
           <ul className="l-s-t-n d-f a-i-c ">
-           <NavLink to="/"> <li className="m-l-2 c-p f-fam  m-q-b-d-n">Home</li></NavLink>
-            <NavLink to="/project"><li className="m-l-2 c-p f-fam  m-q-b-d-n">Projects</li></NavLink>
-            <NavLink to="/contact"><li className="m-l-2 c-p  f-fam m-q-b-d-n">Contact</li></NavLink>
-            <NavLink to="/store"><li className="m-l-2 c-p  f-fam m-q-b-d-n">Store</li></NavLink>
+           <NavLink to="/"> <li className="m-l-2 c-p f-fam c-w m-q-b-d-n">Home</li></NavLink>
+            <NavLink to="/project"><li className="m-l-2 c-p c-w f-fam  m-q-b-d-n">Projects</li></NavLink>
+            <NavLink to="/contact"><li className="m-l-2 c-p c-w f-fam m-q-b-d-n">Contact</li></NavLink>
+            <NavLink to="/store"><li className="m-l-2 c-p c-w f-fam m-q-b-d-n">Store</li></NavLink>
             <li className="m-l-2 c-p   m-q-a-d-n ">
               {" "}
               <Button onClick={handleShow} className=" b-c-t c-i b-n pa-0">
@@ -103,10 +103,10 @@ function Navbar() {
         </Offcanvas.Header>
         <Offcanvas.Body>
           <ul className="l-s-t-n">
-            <NavLink to="/"><li className="m-r-1 m-t-1 c-p f-fam f-s-2 home-select">Home</li></NavLink>
-           <NavLink to="/project"> <li className="m-r-1 m-t-1 c-p f-fam f-s-2 home-select">Projects</li></NavLink>
-            <NavLink to="/contact"><li className="m-r-1 m-t-1 c-p f-fam f-s-2 home-select">Contact</li></NavLink>
-           <NavLink to="/store"><li className="m-r-1 m-t-1 c-p f-fam f-s-2 home-select">Store</li></NavLink>
+            <NavLink to="/"><li className="m-r-1 m-t-1 c-p f-fam f-s-2 c-w home-select">Home</li></NavLink>
+           <NavLink to="/project"> <li className="m-r-1 m-t-1 c-p f-fam c-w f-s-2 home-select">Projects</li></NavLink>
+            <NavLink to="/contact"><li className="m-r-1 m-t-1 c-p f-fam c-w f-s-2 home-select">Contact</li></NavLink>
+           <NavLink to="/store"><li className="m-r-1 m-t-1 c-p f-fam c-w f-s-2 home-select">Store</li></NavLink>
             
           </ul>
         </Offcanvas.Body>
