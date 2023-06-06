@@ -15,7 +15,7 @@ export default function Contact() {
                 <h1 className="c-b f-fam f-s-3">Contact Us</h1>
               </div>
               <div className="d-f">
-                <MdEmail className="f-s-3_5 c-w email-icon" />
+                <MdEmail className="f-s-3_5 c-b email-icon" />
                 <div className="d-g m-l-2">
                   <span className="c-b f-fam f-s-1_5">EMAIL US</span>
                   <div className="c-g f-fam f-s-1_3">enenassociatesindia@gmail.com</div>

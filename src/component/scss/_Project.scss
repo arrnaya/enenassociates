@@ -18,8 +18,8 @@
     text-align: center;
     padding-top: 300px;
 }
-@media screen and (min-width: 767px) {
+@media screen and (max-width: 767px) {
     .projec-img{
-        margin-top: 2rem;
+        margin-top: 2rem !important;
     }
 }
