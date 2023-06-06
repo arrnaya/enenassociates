@@ -80,7 +80,7 @@ function Navbar() {
             <li className="m-l-2 c-p   m-q-a-d-n ">
               {" "}
               <Button onClick={handleShow} className=" b-c-t c-i b-n pa-0">
-                <AiOutlineMenu />
+                <AiOutlineMenu className="c-w" />
               </Button>
             </li>
           </ul>
@@ -99,7 +99,7 @@ function Navbar() {
               </a>
             </div>
           </Offcanvas.Title>
-          <ImCross onClick={handleClose} color="black" />
+          <ImCross onClick={handleClose} color="black" className="c-w"/>
         </Offcanvas.Header>
         <Offcanvas.Body>
           <ul className="l-s-t-n">
