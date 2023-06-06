@@ -99,7 +99,7 @@ function Navbar() {
               </a>
             </div>
           </Offcanvas.Title>
-          <ImCross onClick={handleClose} color="black" className="c-w"/>
+          <ImCross onClick={handleClose} color="white" className="c-w f-s-2"/>
         </Offcanvas.Header>
         <Offcanvas.Body>
           <ul className="l-s-t-n">
