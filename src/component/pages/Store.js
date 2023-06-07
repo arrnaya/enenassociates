@@ -7,14 +7,14 @@ export default function Store() {
       <div className=" container-kws p-t-4 p-b-4">
       <div className="">
       <ul className="l-s-t-n d-f j-c-s-e ">
-      <li className="f-fam f-s-4 d-g">000<span className="f-s-1 t-a-c f-fam">Day(s)</span></li>
+      <li className="f-fam f-s-4 c-w d-g">000<span className="f-s-1 t-a-c c-w f-fam">Day(s)</span></li>
       
-      <li className="f-fam f-s-4">:</li>
-      <li className="f-fam f-s-4 d-g">00<span className="f-s-1 t-a-c f-fam">Hour(s)</span></li>
-      <li className="f-fam f-s-4">:</li>
-      <li className="f-fam f-s-4 d-g">00<span className="f-s-1 t-a-c f-fam">Minute(s)</span></li>
-      <li className="f-fam f-s-4">:</li>
-      <li className="f-fam f-s-4 d-g">00<span className="f-s-1 t-a-c f-fam">Second(s)</span></li>
+      <li className="f-fam c-w f-s-4">:</li>
+      <li className="f-fam c-w f-s-4 d-g">00<span className="f-s-1 t-a-c c-w f-fam">Hour(s)</span></li>
+      <li className="f-fam c-w f-s-4">:</li>
+      <li className="f-fam c-w f-s-4 d-g">00<span className="f-s-1 c-w t-a-c f-fam">Minute(s)</span></li>
+      <li className="f-fam c-w f-s-4">:</li>
+      <li className="f-fam c-w f-s-4 d-g">00<span className="f-s-1 t-a-c c-w f-fam">Second(s)</span></li>
       </ul>
       
       </div>
