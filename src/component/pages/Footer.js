@@ -7,25 +7,25 @@ export default function Footer() {
     <>
       <section className="section-black">
         <div className="container-kws">
-          <Grid container className="m-t-6 m-b-6">
-            <Grid item xs={12} sm={4} md={4} lg={4}>
+          <div  className="row m-t-6 m-b-6 footer-re">
+            <div className="col-lg-4 col-md-4 col-sm-12 col-12">
               <div className="footer-build">
                 <h1 className="f-fam c-w f-w-800">Let's Build Something</h1>
                 <p className="f-fam c-w f-s-1_3 m-t-1 ">
                   Get in touch with us for your exciting idea!
                 </p>
               </div>
-            </Grid>
-            <Grid item xs={12} sm={4} md={4} lg={4}>
-              <div>
+            </div>
+            <div className="col-lg-4 col-md-4 col-sm-12  col-12">
+              <div className="footer-add">
                 <h5 className="f-fam c-w t-a-c">enenassociatesindia@gmail.com</h5>
                 <p className="f-fam c-w t-a-c">#504, Gattu’s Residency</p>
                 <p className="f-fam c-w t-a-c">4th Road, Ayyappa Society</p>
                 <p className="f-fam c-w t-a-c">Madhapur, Hyderabad, India</p>
                 <p className="f-fam c-w t-a-c">+91 81977 47334</p>
               </div>
-            </Grid>
-            <Grid item xs={12} sm={4} md={4} lg={4}>
+            </div>
+            <div className="col-lg-4 col-md-4 col-sm-12 col-12">
               <div className="insta-follow">
                 <h4 className="f-fam c-w t-a-c">Follow Us on Instagram</h4>
                 <div>
@@ -33,8 +33,8 @@ export default function Footer() {
                   <img src={Instagram} alt="" className="d-b m-a m-t-1" />
                 </div>
               </div>
-            </Grid>
-          </Grid>
+            </div>
+          </div>
         </div>
       </section>
       <section className="section-dark-grey">

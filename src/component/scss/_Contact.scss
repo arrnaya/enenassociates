@@ -4,11 +4,12 @@
 }
 .email-icon{
     border-radius: 50px;
-    padding: 8px; }
+    padding: 8px; 
+    background: #000;
+}
 
 .contact-img{
- background-image: #0000007a !important ;
- background-size: cover;
+ filter: brightness(20%);
 }
 @media screen and (max-width: 767px) {
     .contactimg{

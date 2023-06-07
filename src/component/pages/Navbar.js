@@ -80,7 +80,7 @@ function Navbar() {
             <li className="m-l-2 c-p   m-q-a-d-n ">
               {" "}
               <Button onClick={handleShow} className=" b-c-t c-i b-n pa-0">
-                <AiOutlineMenu className="c-w" />
+                <AiOutlineMenu className="hamburger" />
               </Button>
             </li>
           </ul>

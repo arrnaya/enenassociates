@@ -1,8 +1,9 @@
 .main-img{
     background-image: url("../Image/image1.jpeg");
     background-size: cover !important;
-    width: 100%;
-    height: 650px;
+    background-position: center !important;
+    // width: 100%;
+    height: 80vh;
 }
 .section-white{
     background: #fff !important;
@@ -57,6 +58,16 @@
     }
     .our-service{
         text-align: center;
+    }
+}
+.hamburger{
+    color: #0090e9;
+    font-size: 2rem ;
+}
+
+@media screen and (max-width: 767px ) {
+    .main-img{
+       height: 10vh;
     }
 }
 
