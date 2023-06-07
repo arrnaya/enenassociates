@@ -68,9 +68,9 @@ function Navbar() {
       </div>
       <div className="container-kws">
       <div className="d-f a-i-c j-c-s-b p-y-0_5">
-        <div>
+        <NavLink to="/"><div>
           <img src={logo} alt="" className="w-8" />
-        </div>{" "}
+        </div></NavLink>
         <div className=" c-p ">
           <ul className="l-s-t-n d-f a-i-c ">
            <NavLink to="/"> <li className="m-l-2 c-p f-fam c-w m-q-b-d-n">Home</li></NavLink>
