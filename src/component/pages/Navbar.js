@@ -73,10 +73,10 @@ function Navbar() {
         </div></NavLink>
         <div className=" c-p ">
           <ul className="l-s-t-n d-f a-i-c ">
-           <NavLink to="/"> <li className="m-l-2 c-p f-fam c-w m-q-b-d-n">Home</li></NavLink>
-            <NavLink to="/project"><li className="m-l-2 c-p c-w f-fam  m-q-b-d-n">Projects</li></NavLink>
-            <NavLink to="/contact"><li className="m-l-2 c-p c-w f-fam m-q-b-d-n">Contact</li></NavLink>
-            <NavLink to="/store"><li className="m-l-2 c-p c-w f-fam m-q-b-d-n">Store</li></NavLink>
+           <NavLink to="/"> <li className="m-l-4 c-p f-fam c-w m-q-b-d-n">Home</li></NavLink>
+            <NavLink to="/project"><li className="m-l-4 c-p c-w f-fam  m-q-b-d-n">Projects</li></NavLink>
+            <NavLink to="/contact"><li className="m-l-4 c-p c-w f-fam m-q-b-d-n">Contact</li></NavLink>
+            <NavLink to="/store"><li className="m-l-4 c-p c-w f-fam m-q-b-d-n">Store</li></NavLink>
             <li className="m-l-2 c-p   m-q-a-d-n ">
               {" "}
               <Button onClick={handleShow} className=" b-c-t c-i b-n pa-0">

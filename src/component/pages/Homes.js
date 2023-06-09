@@ -10,7 +10,7 @@ export default function Homes() {
           <div className="m-t-1 m-b-1">
             <h2 className="t-a-c f-fam c-b f-w-600">ABOUT US</h2>
             <div>
-              <h4 className="m-t-3 f-w-800 c-b f-fam">
+              <h4 className="m-t-3 f-w-800 c-b-s-h f-fam">
                 ENEN Associates is a Hyderabad based Interior turnkey
                 contracting company.
               </h4>
@@ -130,27 +130,27 @@ export default function Homes() {
       <section className="section-grey">
         <div className="container-kws">
           <div className="p-t-2 p-b-2">
-            <h2 className="t-a-c f-fam c-b f-w-600">NUMBERS TELL A STORY</h2>
+            <h2 className="t-a-c m-b-3 f-fam c-b-s-h f-w-600">NUMBERS TELL A STORY</h2>
             <Grid container>
               <Grid item xs={12} sm={4} md={4} lg={4}>
-                <div className="box m-r-1">
-                  <h1 className="f-fam c-b f-w-800 t-a-c">1322500</h1>
+                <div className="box m-r-1 p-t-3 p-b-3">
+                  <h1 className="f-fam c-b-b f-w-800 t-a-c">1322500</h1>
                   <p className=" f-s-1_5 f-fam c-b f-w-600 t-a-c">
                     SQFT AREA DESIGNED
                   </p>
                 </div>
               </Grid>
               <Grid item xs={12} sm={4} md={4} lg={4}>
-                <div className="box m-r-1">
-                  <h1 className="f-fam c-b f-w-800 t-a-c">28</h1>
+                <div className="box m-r-1 p-t-3 p-b-3">
+                  <h1 className="f-fam c-b-b f-w-800 t-a-c">28</h1>
                   <p className=" f-s-1_5 f-fam c-b f-w-600 t-a-c">
                     SKILLED TEAM MEMBERS
                   </p>
                 </div>
               </Grid>
               <Grid item xs={12} sm={4} md={4} lg={4}>
-                <div className="box">
-                  <h1 className="f-fam c-b f-w-800 t-a-c">35+</h1>
+                <div className="box p-t-3 p-b-3">
+                  <h1 className="f-fam c-b-b f-w-800 t-a-c">35+</h1>
                   <p className=" f-s-1_5 f-fam c-b f-w-600 t-a-c">
                     PROJECTS DELIVERED
                   </p>
@@ -165,39 +165,39 @@ export default function Homes() {
           <div className="p-t-2 p-b-2 our-service">
             <Grid container>
               <Grid item xs={12} sm={6} md={4} lg={4} >
-                <h3 className="f-fam c-w servi-border">OUR SERVICES</h3>
-                <h6 className="f-fam c-w m-t-3 m-b-3">INTERIOR FIT-OUT TURNKEY</h6>
-                <p className="f-fam c-w">
+                <h3 className="f-fam f-c-l-w servi-border">OUR SERVICES</h3>
+                <h6 className="f-fam f-c-l-w m-t-3 m-b-3">INTERIOR FIT-OUT TURNKEY</h6>
+                <p className="f-fam f-c-l-w">
                   Our team has a vast expertise in managing and value adding to
                   every stage of the Project management cycle, which includes
                 </p>
-                <p className="f-fam c-w">1. Development consulting.</p>
-                <p className="f-fam c-w">2. Design development.</p>
-                <p className="f-fam v">3. Procurement management.</p>
-                <p className="f-fam c-w">4 .Construction management.</p>
-                <p className="f-fam c-w">
+                <p className="f-fam f-c-l-w">1. Development consulting.</p>
+                <p className="f-fam f-c-l-w">2. Design development.</p>
+                <p className="f-fam f-c-l-w">3. Procurement management.</p>
+                <p className="f-fam f-c-l-w">4 .Construction management.</p>
+                <p className="f-fam f-c-l-w">
                   5. Cost consultancy and project monitoring.
                 </p>
-                <p className="f-fam c-w">
+                <p className="f-fam f-c-l-w">
                   We provide services across Interior fit-out refurbishment and
                   built-to-suit projects.
                 </p>
               </Grid>
               <Grid item xs={12} sm={6} md={4} lg={4}>
               <div className="p-t-2">
-                <h6 className="f-fam m-t-3 c-w m-b-3">CIVIL & INTERIOR</h6>
+                <h6 className="f-fam m-t-3 f-c-l-w m-b-3">CIVIL & INTERIOR</h6>
 
-                <p className="f-fam c-w">1. Interior</p>
-                <p className="f-fam c-w">2. Project Implementation & Management</p>
-                <p className="f-fam c-w">3. Procurement & Value Engineering</p>
+                <p className="f-fam f-c-l-w">1. Interior</p>
+                <p className="f-fam f-c-l-w">2. Project Implementation & Management</p>
+                <p className="f-fam f-c-l-w">3. Procurement & Value Engineering</p>
                 </div>
               </Grid>
               <Grid item xs={12} sm={6} md={4} lg={4}><div className="p-t-2">
-              <h6 className="f-fam m-t-3 c-w m-b-3">MEP SERVICES</h6>
+              <h6 className="f-fam m-t-3 f-c-l-w m-b-3">MEP SERVICES</h6>
 
-              <p className="f-fam c-w">1. HVAC</p>
-              <p className="f-fam c-w">2. Electrical</p>
-              <p className="f-fam c-w">3. BMS</p>
+              <p className="f-fam f-c-l-w">1. HVAC</p>
+              <p className="f-fam f-c-l-w">2. Electrical</p>
+              <p className="f-fam f-c-l-w">3. BMS</p>
               </div></Grid>
             </Grid>
           </div>

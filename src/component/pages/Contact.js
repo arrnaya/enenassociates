@@ -12,13 +12,13 @@ export default function Contact() {
             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
               {" "}
               <div className="p-b-2">
-                <h1 className="c-b f-fam f-s-3">Contact Us</h1>
+                <h1 className="c-b-b f-fam f-s-3 f-w-600">Contact Us</h1>
               </div>
               <div className="d-f">
                 <MdEmail className="f-s-3_5  email-icon" />
                 <div className="d-g m-l-2">
-                  <span className="c-b f-fam f-s-1_5">EMAIL US</span>
-                  <div className="c-g f-fam f-s-1_3">enenassociatesindia@gmail.com</div>
+                  <span className="c-b-b f-fam f-s-1_3 f-w-600">EMAIL US</span>
+                  <div className="c-g f-fam f-s-1">enenassociatesindia@gmail.com</div>
                 </div>
               </div>
               <div className="row p-t-3">
@@ -28,13 +28,13 @@ export default function Contact() {
                   </div>
 
                   <div className="d-g m-l-2">
-                    <div className="c-b f-fam f-s-1_5">CALL US</div>
-                    <div className="c-g f-fam f-s-1_3">
+                    <div className="c-b-b f-fam f-s-1_3 f-w-600">CALL US</div>
+                    <div className="c-g f-fam f-s-1">
                       Y. V. NARAYANA REDDY
                       <br />
                       +91 98480 10197
                     </div>
-                    <div className="c-g p-t-1 f-fam f-s-1_3">
+                    <div className="c-g p-t-1 f-fam f-s-1">
                       P. V. NARENDRA BABU
                       <br />
                       +91 81977 47334

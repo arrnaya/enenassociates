@@ -11,18 +11,18 @@ export default function Footer() {
             <div className="col-lg-4 col-md-4 col-sm-12 col-12">
               <div className="footer-build">
                 <h1 className="f-fam c-w f-w-800">Let's Build Something</h1>
-                <p className="f-fam c-w f-s-1_3 m-t-1 ">
+                <p className="f-fam f-c-l-w f-s-1_3 m-t-1 ">
                   Get in touch with us for your exciting idea!
                 </p>
               </div>
             </div>
             <div className="col-lg-4 col-md-4 col-sm-12  col-12">
               <div className="footer-add">
-                <h5 className="f-fam c-w t-a-c">enenassociatesindia@gmail.com</h5>
-                <p className="f-fam c-w t-a-c">#504, Gattu’s Residency</p>
-                <p className="f-fam c-w t-a-c">4th Road, Ayyappa Society</p>
-                <p className="f-fam c-w t-a-c">Madhapur, Hyderabad, India</p>
-                <p className="f-fam c-w t-a-c">+91 81977 47334</p>
+                <h5 className="f-fam f-c-l-w t-a-c">enenassociatesindia@gmail.com</h5>
+                <p className="f-fam f-c-l-w t-a-c">#504, Gattu’s Residency</p>
+                <p className="f-fam f-c-l-w t-a-c">4th Road, Ayyappa Society</p>
+                <p className="f-fam f-c-l-w t-a-c">Madhapur, Hyderabad, India</p>
+                <p className="f-fam f-c-l-w t-a-c">+91 81977 47334</p>
               </div>
             </div>
             <div className="col-lg-4 col-md-4 col-sm-12 col-12">

@@ -17,7 +17,7 @@ export default function Project() {
         <div className="container-kws ">
           <div className="content">
             {" "}
-            <h1 className="f-fam f-s-3 c-w ">Project</h1>
+            <h1 className="project-fonts f-s-3_5 c-w ">Projects</h1>
           </div>
         </div>
       </section>
