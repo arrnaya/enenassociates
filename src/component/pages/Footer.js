@@ -27,10 +27,12 @@ export default function Footer() {
             </div>
             <div className="col-lg-4 col-md-4 col-sm-12 col-12">
               <div className="insta-follow">
+              
                 <h4 className="f-fam c-w t-a-c">Follow Us on Instagram</h4>
                 <div>
                   {" "}
-                  <img src={Instagram} alt="" className="d-b m-a m-t-1" />
+                  <a href="https://www.instagram.com/enenassociates/">
+                  <img src={Instagram} alt="" className="d-b m-a m-t-1" /></a>
                 </div>
               </div>
             </div>
@@ -49,7 +51,7 @@ export default function Footer() {
               <div className="f-r design-by">
                 <h5 className="f-fam c-w">
                   Designed & Managed By
-                  <span className="f-fam c-bl "> Kesavi Web Solutions</span>
+                 <a href="https://kesaviwebsolutions.com/" target="_blank"> <span className="f-fam c-bl "> Kesavi Web Solutions</span></a>
                 </h5>
               </div>
             </Grid>
