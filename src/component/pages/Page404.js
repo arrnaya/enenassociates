@@ -1,15 +1,24 @@
 import React from "react";
 import image404 from "../Image/image404.jpg";
-
+import { Link } from "react-router-dom";
+import "../scss/_page404.scss"; // (Optional: Create this for scoped styles)
 
 function Page404() {
   return (
-    <>
-    <p>
-    <img src={image404} alt=" " className=" w-100  image404" style={{height:"90vh"}} />
-    <p className="m-b-3" style={{textAlign:"center" , fontSize:"2rem",fontWeight:"600",cursor:"pointer",marginBottom:"3rem"}}> <a href="/">Go Back to Home Page</a></p>
-    </p>
-    </>
+    <div className="page404-container">
+      <img
+        src={image404}
+        alt="404 - Page Not Found"
+        className="page404-image"
+      />
+      <div className="page404-content">
+        <h1>Oops! Page Not Found</h1>
+        <p>Looks like you’re trying to visit a page that doesn’t exist.</p>
+        <Link to="/" className="page404-button">
+          Go Back to Home Page
+        </Link>
+      </div>
+    </div>
   );
 }
 

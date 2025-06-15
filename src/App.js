@@ -1,32 +1,29 @@
-
 import Navbar from "./component/pages/Navbar";
 import "./component/scss/Main.scss";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./component/pages/Home";
 import "./App.scss";
-import Form1 from "./component/pages/Form1";
 import Page404 from "./component/pages/Page404";
-import Homes from "./component/pages/Homes";
+import Home from "./component/pages/Home";
 import Footer from "./component/pages/Footer";
 import Project from "./component/pages/Project";
-import Contact from "./component/pages/Contact"
+import Contact from "./component/pages/Contact";
 import Store from "./component/pages/Store";
 
 function App() {
   return (
-    <div className="">
+    <div>
       <Router>
         <Navbar />
         <Routes>
-        <Route path="/" element={<Homes/>} />
-        <Route path="/project" element={<Project/>}/>
-        <Route path="/contact" element={<Contact/>} />
-        <Route path="/store" element={<Store/>} />
-        {/*   <Route path="/" element={<Home />} />
-          <Route path="/form" element={<Form1 />} />
-          <Route path="*" element={<Page404 />} /> */}
+          <Route path="/" element={<Home />} />
+          <Route path="/project" element={<Project />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/store" element={<Store />} />
+          
+          {/* ✅ 404 catch-all route */}
+          <Route path="*" element={<Page404 />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </Router>
     </div>
   );

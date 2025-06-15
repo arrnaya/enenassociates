@@ -44,7 +44,7 @@ export default function Footer() {
           <Grid container className="p-t-2 association">
             <Grid item xs={12} sm={6} md={6} lg={6}>
               <div>
-                <h4 className="f-fam c-w">© ENEN Associates 2021</h4>
+                <h4 className="f-fam c-w">© ENEN Associates 2021-25 | All Rights Reserved</h4>
               </div>
             </Grid>
             <Grid item xs={12} sm={6} md={6} lg={6}>
